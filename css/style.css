@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+.navbar{
+    height: 70px;
+    background-image: linear-gradient(to bottom right, #383638, #0B0B0B);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navbar-1 h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.navbar-2{
+    display: flex;
+    gap: 27px;
+}
+.navbar-2 a{
+    text-decoration: none;
+    color: #8B8E99;
+}
+.navbar-2 a:hover{
+    color: #c0c2ca;
+}
+.navbar-3{
+    display: flex;
+    gap: 15px;
+}
+.section-content{
+    background-image: linear-gradient(to bottom right, #383638, #0B0B0B) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    
+}
+.content{
+    width: 456px;
+}
+.content-1{
+    width: 456px;
+    height: 220px;
+}
+.content-1 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+}
+.content-2{
+    width: 456px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    color: #8B8E99;
+}
+.iwatch{
+    display: flex;
+}
+
+
